@@ -27,7 +27,11 @@ const Map01 = () => {
         .map((d, i) => <path key={i} d={pathGenerator(d)} style={style} />);
 
     return (
-        <svg width={width} height={height} style={svgStyle}>
+        <svg
+            width={width}
+            height={height}
+            style={svgStyle}
+        >
             {countries}
         </svg>
     )
