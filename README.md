@@ -8,47 +8,22 @@ Under src/ folder I have some D3 geo charts in React that use the npmjs D3 packa
 
 ## Resources
 
-### Full Tutorial Including installing GDAL 
+### Full Tutorial Including installing GDAL & Others
 
 * https://bost.ocks.org/mike/map/
+
+#### Windows Install
+
+* https://sandbox.idre.ucla.edu/sandbox/tutorials/installing-gdal-for-windows
+
+#### MAC Install
+
+* https://sandbox.idre.ucla.edu/sandbox/general/how-to-install-and-run-gdal
 
 ### Explanation of working with topojson files
 
 * http://anotherpeak.org/blog/visualization/2018/01/08/d3_geodata_topojson.html
 
-### Description of formats 
+### Description of Formats 
 
 * https://medium.com/@amy.degenaro/introduction-to-digital-cartography-geojson-and-d3-js-c27f066aa84
-
-### Datasets
-
-* https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports
-* https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/datasets/weeklyprovisionalfiguresondeathsregisteredinenglandandwales
-
-## Process
-
-### Installation of Software
-
-1) Install Python
-    https://www.python.org/downloads/
-
-2)  Install GDAL
-    http://www.gisinternals.com/release.php
-
-### Data
-
-1) Download
-2) Process
-
-### Build
-
-1) React app + packages
-2) Show map
-3) Zoom + pan functionality
-4) Add data points
-
-## Todo
-
-1) Get map working - restructure this project!
-2) Create version with variable params for D3 geo.
-3) Create version with different resolution datasets.

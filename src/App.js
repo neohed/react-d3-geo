@@ -1,18 +1,16 @@
 import React from 'react';
 import './App.css';
+/*
 import Map01 from './Map01'
 import WorldMap from "./D3InAction/WorldMap";
 import WorldMap_topojson from "./D3InAction/WorldMap_topojson";
+ */
+import Map_UK from './Map_UK';
 
 function App() {
     return (
         <div className="App">
-            <h1>Map01</h1>
-            <Map01/>
-            <h1>WorldMap</h1>
-            <WorldMap/>
-            <h1>WorldMap_topojson</h1>
-            <WorldMap_topojson/>
+            <Map_UK />
         </div>
     );
 }
