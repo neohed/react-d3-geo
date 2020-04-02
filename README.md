@@ -16,7 +16,9 @@ Under src/ folder I have some D3 geo charts in React that use the npmjs D3 packa
 ### Description of formats 
 * https://medium.com/@amy.degenaro/introduction-to-digital-cartography-geojson-and-d3-js-c27f066aa84
 
-## Installation
+## Process
+
+### Installation of Software
 
 1) Install Python
     https://www.python.org/downloads/
@@ -24,6 +26,17 @@ Under src/ folder I have some D3 geo charts in React that use the npmjs D3 packa
 2)  Install GDAL
     http://www.gisinternals.com/release.php
 
+### Data
+
+1) Download
+2) Process
+
+### Build
+
+1) React app + packages
+2) Show map
+3) Zoom + pan functionality
+4) Add data points
 
 ## Todo
 
