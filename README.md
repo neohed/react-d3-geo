@@ -15,3 +15,18 @@ Under src/ folder I have some D3 geo charts in React that use the npmjs D3 packa
 
 ### Description of formats 
 * https://medium.com/@amy.degenaro/introduction-to-digital-cartography-geojson-and-d3-js-c27f066aa84
+
+## Installation
+
+1) Install Python
+    https://www.python.org/downloads/
+
+2)  Install GDAL
+    http://www.gisinternals.com/release.php
+
+
+## Todo
+
+1) Get map working - restructure this project!
+2) Create version with variable params for D3 geo.
+3) Create version with different resolution datasets.
