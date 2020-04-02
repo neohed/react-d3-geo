@@ -40,7 +40,7 @@ const getCircle = (x, y, r, sw, id = 1) =>
         className={'solar'}
     />;
 
-const Map_UK = () => {
+const MapUK = () => {
     const [businesses, setBusinesses] = useState(null);
     const [mapOutline, setMapOutline] = useState(null);
     const [zoomTransform, setZoomTransform] = useState(zoomIdentity);
@@ -104,4 +104,4 @@ const Map_UK = () => {
     )
 };
 
-export default Map_UK;
+export default MapUK;
