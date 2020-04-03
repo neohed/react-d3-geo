@@ -49,8 +49,11 @@ const MapUK = () => {
     useEffect(() => {
         const zoomRef = zoom()
             .scaleExtent([.1, 10])
+            /*Specifies the zoom scale's allowed range as a two-element array, [minimum, maximum]. If not specified,
+              returns the current scale extent, which defaults to [0, Infinity].*/
             .translateExtent([[-padding, -padding], [width + padding, height + padding]])
-            .extent([[-padding, -padding], [width + padding, height + padding]])
+            /*Restricts how much we can pan about */
+            //.extent([[-padding, -padding], [width + padding, height + padding]])
             .on("zoom", () => setZoomTransform(event.transform));
 
         select(svg.current)
