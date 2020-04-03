@@ -63,14 +63,12 @@ const MapUK = () => {
     const {x, y, k} = zoomTransform;
 
     useEffect(() => {
-        const tx = (width / 2) * k + x, // T2: scale factor must be applied to this translation
+        const tx = (width / 2) * k + x, // scale factor must be applied to this translation
             ty = (height / 2) * k + y;
 
-        // In video first give a brief description of these. Maybe create a video where each of these is parameterised
-        // and the dataset is "visualised" seo we can see what these do!
         const projection = geoAlbers()
             .scale(baseScale * k) // Make the map larger to fit the SVG canvas
-            .translate([tx, ty]) // T1: translate centers the image
+            .translate([tx, ty]) // translate centers the image
             .center([0, 55.1]) // Without this the UK appears off the top of the SVG canvas
             .rotate([3.3, -0.1]) // rotate the globe...? This moves the UK into the center of the canvas.
             .parallels([50, 60]); // This "lengthens" the UK, making it look less squished
