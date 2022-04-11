@@ -90,7 +90,7 @@ const MapUK = () => {
         setMapOutline(features.features
             .map((d, i) => <path key={i} d={pathGenerator(d)} style={mapStyle} />));
     }, [
-        x, y, k, data
+        x, y, k//, data
     ]);
 
     return (
